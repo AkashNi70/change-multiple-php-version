@@ -4,7 +4,7 @@ Lets set it up
 
 Step 1: Download PHP ( https://windows.php.net/downloads/releases/archives/ )
 
-You want to add an older PHP version to it (say PHP 5.6).Download the nts (Non Thread Safe) version of the PHP zip archive from php.net (see archive for older versions) and extract the files under c:\xampp\php56.
+You want to add any older PHP version to it (say PHP 5.6).Download the nts (Non Thread Safe) version of the PHP zip archive from php.net (see archive for older versions) and extract the files under c:\xampp\php56.
 
 Step 2: Configure php.ini
 
@@ -21,7 +21,7 @@ Step 3: Configure apache
 
 Open xampp control panel, click the config button for apache, and click Apache (httpd-xampp.conf). A text file will open. Put the following settings at the bottom of the file:
 
-ScriptAlias /php56 "C:/xampp/php56"
+ScriptAlias /php56 "C:/xampp/php56"-
 Action application/x-httpd-php56-cgi /php56/php-cgi.exe
 <Directory "C:/xampp/php56">
     AllowOverride None
