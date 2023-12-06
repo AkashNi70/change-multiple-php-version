@@ -24,7 +24,7 @@ Open xampp control panel, click the config button for apache, and click Apache (
 ScriptAlias /php56 "C:/xampp/php56"<br/>
 Action application/x-httpd-php56-cgi /php56/php-cgi.exe<br/>
 <Directory "C:/xampp/php56"><br/>
-    &nbsp;AllowOverride None<br/>
+    &nbsp;&nbsp;&nbsp;AllowOverride None<br/>
     Options None<br/>
     Require all denied<br/>
     <Files "php-cgi.exe"><br/>
