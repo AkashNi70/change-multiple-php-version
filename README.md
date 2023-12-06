@@ -25,11 +25,11 @@ ScriptAlias /php56 "C:/xampp/php56"<br/>
 Action application/x-httpd-php56-cgi /php56/php-cgi.exe<br/>
 <Directory "C:/xampp/php56"><br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AllowOverride None<br/>
-    Options None<br/>
-    Require all denied<br/>
-    <Files "php-cgi.exe"><br/>
-        Require all granted<br/>
-    </Files><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Options None<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Require all denied<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Files "php-cgi.exe"><br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Require all granted<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Files><br/>
 </Directory><br/>
 S
 Note: You can add more versions of PHP to your xampp installation following step 1 to 3 if you want.
