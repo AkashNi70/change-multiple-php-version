@@ -24,6 +24,7 @@ Open xampp control panel, click the config button for apache, and click Apache (
 ScriptAlias /php56 "C:/xampp/php56"
 
 Action application/x-httpd-php56-cgi /php56/php-cgi.exe
+
 <Directory "C:/xampp/php56">
     AllowOverride None
     Options None
@@ -32,6 +33,7 @@ Action application/x-httpd-php56-cgi /php56/php-cgi.exe
         Require all granted
     </Files>
 </Directory>
+
 S
 Note: You can add more versions of PHP to your xampp installation following step 1 to 3 if you want.
 
