@@ -21,7 +21,7 @@ Step 3: Configure apache
 
 Open xampp control panel, click the config button for apache, and click Apache (httpd-xampp.conf). A text file will open. Put the following settings at the bottom of the file:
 
-ScriptAlias /php56 "C:/xampp/php56"
+ScriptAlias /php56 "C:/xampp/php56"<br/>
 Action application/x-httpd-php56-cgi /php56/php-cgi.exe
 <Directory "C:/xampp/php56">
     AllowOverride None
